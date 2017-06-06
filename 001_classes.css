@@ -1,0 +1,9 @@
+.test{	color:red;
+}
+body{
+	background-color: lightblue;
+}
+.test p{
+	background-color: lightgrey;
+	margin-right: 0px;
+}
