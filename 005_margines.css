@@ -1,0 +1,22 @@
+.square{
+	width: auto;
+	height: auto;
+	background-color: #F06;
+	border:10px solid green;
+}
+#margine1{
+	padding: -10px;
+}
+#margine2{
+	padding:10px;
+}
+#margine2:hover{
+	background-color: grey;
+	-webkit-animation:phase 3s infinite linear alternate;
+}
+@-webkit-keyframes phase{
+	50% {background-color: red} 0% {opacity: 1}
+}
+body{
+	background-color:rgb(0,255,0)
+}
